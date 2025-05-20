@@ -7,16 +7,6 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
-    "firstName": {
-      "type": "string",
-      "title": "First Name",
-      "description": "The first name of the person."
-    },
-    "lastName": {
-      "type": "string",
-      "title": "Last Name",
-      "description": "The last name of the person."
-    },
     "status": {
       "type": "string",
       "title": "App Repo Status",
@@ -30,6 +20,6 @@
       "description": "New name to use for installing the app"
     }
   },
-  "required": ["firstName", "lastName", "io.pipeforce.t627app3_newAppName"]
+  "required": ["io.pipeforce.t627app3_newAppName"]
   }
 }
